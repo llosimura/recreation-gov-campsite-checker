@@ -223,7 +223,7 @@ def generate_human_output(
             emoji = Emoji.FAILURE.value
 
         out.append(
-            "{emoji} {park_name} ({park_id}): {current} site(s) available out of {maximum} site(s)".format(
+            "{emoji} {park_name} ({park_id}): {current} site(s) available out of {maximum} site(s) -> https://www.recreation.gov/camping/campgrounds/{park_id}".format(
                 emoji=emoji,
                 park_name=park_name,
                 park_id=park_id,
